@@ -1,0 +1,19 @@
+.boss-style-enter{
+    opacity: 0;
+}
+.boss-style-enter-active{
+    opacity: 1;
+    transition: opacity 2000ms;
+}
+.boss-style-enter-done{
+    opacity: 1;
+}
+.boss-style-exit{
+    opacity: 1;
+}
+.boss-style-exit-active{
+    opacity: 0;transition: opacity 2000ms;
+}
+.boss-style-exit-done{
+    opacity: 0
+}
